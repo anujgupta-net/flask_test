@@ -1,0 +1,19 @@
+#Virtual Environment
+env1/
+
+#Flask
+instance/* (data user name and password do not track)
+!instance/.gitignore
+.webassets-cache
+
+#Flask.python stack
+#Byte-compiled/optimized/DLL files
+__pycache__/ (created each time large on run and redundent )
+*.py[cod]
+*$py.class
+
+overhear/
+
+env1/
+instance/
+__pycache__ /
