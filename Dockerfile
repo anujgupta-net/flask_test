@@ -5,7 +5,7 @@ FROM python:3.10.1
 WORKDIR /flask_test
 
 #Copy the contents into the working directory
-ADD . /flask_test
+COPY . /flask_test
 
 #run pip to install the dependencies of the flask app
 RUN pip install -r requirement.txt
